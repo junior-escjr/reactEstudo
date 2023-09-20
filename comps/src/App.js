@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import DropdownPage from "./pages/DropdownPage";
 import AccordionPage from "./pages/AccordionPage";
 import ButtonPage from "./pages/ButtonPage";
+import ModalPage from "./pages/ModalPage";
 
 const App = () => {
     return <div className="flex flex-wrap gap-4 min-h-screen">
@@ -17,6 +18,9 @@ const App = () => {
             </Route>
             <Route path="/button">
                 <ButtonPage />
+            </Route>
+            <Route path="/modal">
+                <ModalPage />
             </Route>
         </div>
     </div>;
