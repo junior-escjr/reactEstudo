@@ -4,6 +4,7 @@ import DropdownPage from "./pages/DropdownPage";
 import AccordionPage from "./pages/AccordionPage";
 import ButtonPage from "./pages/ButtonPage";
 import ModalPage from "./pages/ModalPage";
+import TablePage from "./pages/TablePage";
 
 const App = () => {
     return <div className="flex flex-wrap gap-4 min-h-screen">
@@ -21,6 +22,9 @@ const App = () => {
             </Route>
             <Route path="/modal">
                 <ModalPage />
+            </Route>
+            <Route path="/table">
+                <TablePage />
             </Route>
         </div>
     </div>;
