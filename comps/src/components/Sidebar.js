@@ -8,7 +8,8 @@ const Sidebar = () => {
         {label: 'Modal', path: '/modal'},
         {label: 'Table', path: '/table'},
         {label: 'Counter', path: '/counter'},
-        {label: 'Counter form', path: '/counter-form'}
+        {label: 'Counter form', path: '/counter-form'},
+        {label: 'Counter form with useReducer', path: '/counter-form-usereducer'}
     ];
 
     const renderLinks = links.map(( link ) => {

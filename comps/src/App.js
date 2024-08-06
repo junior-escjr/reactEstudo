@@ -7,6 +7,7 @@ import ModalPage from "./pages/ModalPage";
 import TablePage from "./pages/TablePage";
 import CounterPage from './pages/CounterPage';
 import CounterFormPage from './pages/CounterPageForm';
+import CounterFormPageUseReducer from './pages/CounterPageFormUseReducer';
 
 const App = () => {
     return <div className="flex flex-wrap gap-4 min-h-screen">
@@ -33,6 +34,9 @@ const App = () => {
             </Route>
             <Route path="/counter-form">
                 <CounterFormPage initialCount={10} />
+            </Route>
+            <Route path="/counter-form-usereducer">
+                <CounterFormPageUseReducer initialCount={10} />
             </Route>
         </div>
     </div>;
