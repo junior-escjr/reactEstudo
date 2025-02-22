@@ -31,7 +31,7 @@ const CounterPage = ({ initialCount }) => {
         <h1 className="text-lg">Count is {count}</h1>
         <div className="flex flex-row">
             <Button onClick={increment}>Increment</Button>
-            <Button onClick={decrement}>Increment</Button>
+            <Button onClick={decrement}>Decrement</Button>
         </div>
         
         <form onSubmit={handleSubmit}>
